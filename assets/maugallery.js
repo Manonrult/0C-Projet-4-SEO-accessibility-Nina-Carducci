@@ -233,8 +233,10 @@
       if ($(this).hasClass("active-tag")) {
         return;
       }
+      //retier la classe active et active-tag de l'élément précédemment sélectionné 
       $(".active-tag").removeClass("active active-tag");
-      $(this).addClass("active-tag");
+      //ajouter les deuxc classe au nouvel élément cliqué 
+      $(this).addClass(" active active-tag");
 
       var tag = $(this).data("images-toggle");
 
