@@ -244,6 +244,17 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.modal-dialog {
+    max-width: fit-content;
+    height: auto;
+}
+
+.lightboxImage {
+    max-width: 90vw; /* 90% de la largeur de la fenêtre */
+    max-height: 90vh; /* 90% de la hauteur de la fenêtre */
+    object-fit: contain;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
