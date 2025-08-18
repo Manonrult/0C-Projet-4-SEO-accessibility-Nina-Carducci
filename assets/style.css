@@ -43,7 +43,8 @@ nav a {
 }
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: rgba(252, 246, 246, 2.5); /* noir semi-transparent */
+  background-color:#000 ;
+  opacity: 1;
   border-radius: 50%; /* pour un bouton rond, optionnel */
   width: 40px;
   height: 40px;
@@ -52,11 +53,14 @@ nav a {
   justify-content: center;
   top: 50%; 
 }
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  filter: invert(1); /* inverse la couleur pour plus de contraste */
+.carousel-control-prev {
+	margin-left: 6em;
 }
+.carousel-control-next {
+	margin-right: 6em;
+}
+
+
 
 #about {
 	display: flex;
