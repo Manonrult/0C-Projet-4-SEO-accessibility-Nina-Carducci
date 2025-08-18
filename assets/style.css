@@ -41,6 +41,22 @@ nav a {
 .social-link img {
 	width: 20px;
 }
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(252, 246, 246, 2.5); /* noir semi-transparent */
+  border-radius: 50%; /* pour un bouton rond, optionnel */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* inverse la couleur pour plus de contraste */
+}
 
 #about {
 	display: flex;
@@ -108,6 +124,7 @@ h2{
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
+	color: #000;
 }
 .nav-pills .nav-link {
 	color: #000
@@ -244,6 +261,9 @@ form textarea {
 	line-height: 2.5em;
 	font-size: 1.2em;
 	margin-bottom: 20px;
+}
+form legend{
+	font-size: 18px;
 }
 input[type="submit"] {
 	background-color: #BEB45A;
