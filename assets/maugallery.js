@@ -148,6 +148,7 @@
       $(imagesCollection).each(function(i){
         if ($(".lightboxImage").attr("src") === $(this).attr("src")){
           index = i;
+          return false;
         }
       });
       let prevIndex = index === 0 ? imagesCollection.length - 1 : index - 1;
@@ -181,6 +182,7 @@
       $(imagesCollection).each(function(i){
         if ($(".lightboxImage").attr("src") === $(this).attr("src")){
           index = i;
+          return false; //sortir de la boucle une fois l'index trouvé 
         }
       });
       let nextIndex = (index + 1) % imagesCollection.length;
