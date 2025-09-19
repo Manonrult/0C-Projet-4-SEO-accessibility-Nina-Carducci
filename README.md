@@ -44,3 +44,6 @@ Ce projet est un site web statique qui ne nécessite pas d'installation de dépe
 2.  **Ouvrir le projet :**
     - Ouvrez le dossier du projet.
     - Double-cliquez sur le fichier `index.html` pour l'ouvrir directement dans votre navigateur.
+   ### Auteur
+
+- **Manon Ruault** - Étudiante OpenClassrooms
